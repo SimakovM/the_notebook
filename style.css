@@ -1,0 +1,300 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 100%; 
+    font-weight: normal;
+}
+
+h1 { 
+    margin: 0;
+    padding: 0;
+    font-family: Chonburi;
+    font-size: 60px;
+    color: #303036;
+}
+
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 26px;
+    color: #303036;
+}
+
+.orange_text {
+    color: #FC5130;
+}
+
+.content {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.first_section {                                   /*Первая страница */
+    background-color: #FFFCFF;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+
+nav {
+    margin-top: 50px;
+}
+
+nav a {
+    text-decoration:none;
+    font-family: Montserrat;
+    color: #303036;
+    margin-right: 114px;
+    font-size: 26px;
+    line-height: 44px;
+}
+
+.contact_us {
+    margin-right: 57px;
+}
+
+.main_header {
+    text-align: center;
+    width: 912px;
+    margin: auto;
+    margin-top: 240px;
+    margin-bottom: 120px;
+}
+
+.button_container {
+    text-align: center;
+    margin-bottom: 360px;
+}
+
+.button_1 {
+    text-align: center;
+    width: 194px;
+    height: 52px;
+    background-color: transparent;
+    border: 2px solid #303036;
+    border-radius: 30px;
+    font-family: Montserrat;    
+    font-size: 26px;
+    line-height: 44px;
+}
+
+.header_2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.img_1 {
+    margin:auto;
+    background-image: url(notebook_1.png);
+    background-position: center center;
+    background-size: cover;
+    width: 1026px;
+    height: 423px;
+}
+
+.second_section {                                  /*Вторая страница */
+    background-color: #303036;
+}                                      
+
+.white_header {
+    color: #FFFCFF;
+    padding-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.buy {                                          /*Магазин*/
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    min-width: 307px;
+    height: 538px;
+    padding: 0;
+}
+
+.card p {
+    color: #FFFCFF;
+}
+
+.card_img_res {
+    min-width: 307px;
+    width: 100%;
+    height: 405px;  
+}
+
+.card_img_1 {                                   
+    background-image: url(younts_img.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.card_img_2 {
+    background-image: url(hardluck_img.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.card_img_3 {
+    background-image: url(trident_img.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.card_price {
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add_button {
+    text-align: center;
+    width: 306px;
+    height: 59px;
+    background-color: transparent;
+    border: 1px solid #FFFCFF;
+    border-radius: 30px;
+    color: #FFFCFF;
+    font-family: Montserrat;    
+    font-size: 26px;
+    margin-top: 16px;
+}
+
+.white_header_2 {
+    color: #FFFCFF;
+    padding-top:120px;
+    padding-bottom: 40px;
+    padding-left: 114px;
+    width: 660px;
+}
+
+.white_text {
+    color: #FFFCFF;
+    width: 700px;
+    margin-left: 114px;
+    margin-bottom: 40px;
+}
+
+.img_2 {
+    margin:auto;
+    background-image: url(notebook_2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 1026px;
+    height: 513px;
+}
+
+.wrapper {
+    padding-bottom: 80px;
+}
+
+.third_section {                                   /*Третья страница */
+    background-color: #FFFCFF;
+}
+
+.third_header {
+    padding-top: 80px;
+    margin-left: 345px;
+    height: 250px;
+}
+
+.illustrations_box {
+    height: 405px;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto 80px;
+}
+
+.illustration {
+    width: 307px;
+    height: 405px;
+}
+
+.third_section_text {
+    width: 820px;
+    margin-left: 114px;
+}
+
+.third_section_text_1 {
+    width: 820px;
+    margin-left: 114px;
+    margin-bottom: 40px;
+}
+
+.second_par {
+    text-indent: 20px;
+    margin-bottom: 160px;
+}
+
+.green_header {
+    margin-left: 114px;
+    margin-bottom: 40px;
+}
+
+.img_3 {
+    margin:auto;
+    background-image: url(notebook_3.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 1026px;
+    height: 513px;
+}
+
+.img_3_wrapper {
+    padding-bottom: 80px;
+}
+
+footer {
+    background-color: #303036;
+}
+
+footer p {
+    color: #FFFCFF;
+}
+.footer_text {
+    padding-top: 80px;
+    margin-top: 0;
+    margin-left: 114px;
+    margin-bottom: 40px;
+}
+
+.subscribe_field {
+    margin-left: 114px;
+    width: 727px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email_field {
+    width: 421px;
+    height: 44px;
+    border-bottom: 1px solid #FFFCFF;
+}
+
+.subscribe {
+    font-weight: 500;
+}
+
+.subscribe_icons {
+    margin-left: 114px;
+}
+
+.icon {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 57px;
+    color: #FFFCFF;
+    height:58px;
+    width: 58px;
+}

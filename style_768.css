@@ -1,0 +1,231 @@
+@media screen and (max-width: 768px) {               
+    body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-size: 100%; 
+        font-weight: normal;
+    }
+    
+    h1 { 
+        font-size: 32px;
+        letter-spacing: 0.04em;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .content {
+        width: 100vw;
+    }
+
+    header {                                           /*Первая страница */
+        height: 40px;
+    }
+    
+    nav {
+        margin-top: 30px;
+        margin: auto;
+    }
+    
+    nav a {
+        margin-right: 41px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    
+    .contact_us {
+        margin-right: 0;
+    }
+    
+    .main_header {
+        width: 70vw;
+        margin-top: 128px;
+        margin-bottom: 64px;
+    }
+    
+    .button_container {
+        margin-bottom: 270px;
+    }
+    
+    .button_1 {
+        width: 126px;
+        height: 34px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .header_2 {
+        margin-bottom: 32px;
+    }
+    
+    .img_1 {
+        width: 100vw;
+        height: 60vw;
+        min-width: auto;
+    }                              
+    
+    .white_header {                                  /*Вторая страница */
+        padding-top: 32px;
+        padding-bottom: 48px;
+        margin: auto;
+    }
+    
+    .card_img_res {                                   
+        width: 100%;
+        height: 260px;  
+        min-width: 190px;  
+    }
+
+    .add_button {
+        width: 100%; 
+        min-width: 190px;  
+        font-size: 22px;
+        margin-top: 16px;
+    }
+
+    .buy {                                          /*Магазин*/
+        margin:0;
+        display: block;
+        width: 100vw;
+    }
+
+    .card {   
+        margin:auto;   
+        margin-bottom: 60px;                                    
+        width: 190px;
+        height: 290px;        
+    }
+    
+    .card_img_res {                                  
+        width: 100%;
+        height: 216px; 
+    }
+    
+    .add_button {
+        width: 100%; 
+        height: 26px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 0;
+        border: 1px solid #FFFCFF;
+    }
+    
+    .white_header_2 {
+        padding-top:60px;
+        padding-bottom: 16px;
+        padding-left: 21px;
+    }
+    
+    .white_text {
+        width: 90vw;
+        margin-left: 21px;
+        margin-bottom: 32px;
+    }
+    
+    .img_2 {
+        width: 100vw;
+        height: 60vw;
+    }
+    
+    .wrapper {
+        padding-bottom: 0;
+    }
+    
+    .third_header {                      /*Третья страница */
+        padding-top: 40px;
+        padding-bottom: 32px;
+        margin-left: 25vw;
+    }
+    
+    .illustrations_box {
+        width: auto;
+        height: auto;
+        margin: 0 auto 60px;
+    }
+    
+    .illustration {
+        width: 120px;
+    }
+    
+    .third_section_text {
+        width: 90vw;
+        margin-left: 21px;
+    }
+    
+    .third_section_text_1 {
+        width: 90vw;
+        margin-left: 21px;
+        margin-bottom: 30px;
+    }
+    
+    .second_par {
+        text-indent: 15px;
+        margin-bottom: 48px;
+    }
+    
+    .green_header {
+        margin-left: 21px;
+        margin-bottom: 16px;
+    }
+    
+    .img_3 {
+        width: 100vw;
+        height: 60vw;
+    }
+    
+    .img_3_wrapper {
+        padding-bottom: 0;
+    }
+    
+    .footer_text {
+        text-align: center;
+        padding-top: 32px;
+        margin-bottom: 32px;
+        margin-left: 0;
+    }
+    
+    .subscribe_field {
+        display: block;
+        margin-left: 0;
+        width: auto;
+    }
+    
+    .email_field {
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 30px;
+        text-align: center;
+        min-width: 210px;
+        height: 40px;   
+        line-height: 20px;
+        margin:auto;
+        padding-top: 6px;
+    }
+    
+    .subscribe {
+        padding-top: 35px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .subscribe_icons {
+        width:300px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .icon {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-right: 42px;
+        height:44px;
+        width: 44px;
+    }
+    
+    .facebook_icon {
+        margin-right: 0;
+    }
+}
