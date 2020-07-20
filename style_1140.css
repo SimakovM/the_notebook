@@ -1,0 +1,185 @@
+
+@media screen and (max-width: 1140px) {               
+    h1 { 
+        font-size: 50px;
+    }
+    
+    p {
+        font-size: 22px;
+    }
+
+    .content {
+        max-width: 834px;
+    }
+
+    header {                                           /*Первая страница */
+        height: 80px;
+    }
+    
+    nav {
+        margin-top: 30px;
+    }
+    
+    nav a {
+        margin-right: 68px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .main_header {
+        width: 70vw;
+        margin-top: 160px;
+        margin-bottom: 60px;
+    }
+    
+    .button_container {
+        margin-bottom: 270px;
+    }
+    
+    .button_1 {
+        width: 172px;
+        height: 47px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    
+    .header_2 {
+        margin-bottom: 60px;
+    }
+    
+    .img_1 {
+        width: 75vw;
+        height: 45vw;
+    }
+                                       
+    
+    .white_header {                                  /*Вторая страница */
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin: auto;
+    }
+
+
+    .card {                                          /*Магазин*/
+        width: 230px;
+        height: 385px;
+        min-width: 190px; 
+    }
+    
+    .card_img_res {                                   
+        width: 100%;
+        height: 260px;  
+        min-width: 190px;  
+    }
+
+    .add_button {
+        width: 100%; 
+        min-width: 190px;  
+        font-size: 22px;
+        margin-top: 16px;
+    }
+    
+    .white_header_2 {
+        padding-top:90px;
+        padding-bottom: 30px;
+        padding-left: 83.5px;
+        width: 70vw;
+    }
+    
+    .white_text {
+        width: 70vw;
+        margin-left: 83.5px;
+        margin-bottom: 30px;
+    }
+    
+    .img_2 {
+        width: 75vw;
+        height: 45vw;
+    }
+    
+    .wrapper {
+        padding-bottom: 60px;
+    }
+    
+    .third_header {                      /*Третья страница */
+        padding-top: 60px;
+        margin-left: 83.5px;
+        height: auto;
+    }
+    
+    .illustrations_box {
+        width: auto;
+        height: 312px;
+        margin: 0 auto 60px;
+    }
+    
+    .illustration {
+        width: 237px;
+        height: auto;
+        object-fit: scale-down;
+    }
+    
+    .third_section_text {
+        width: 70vw;
+        margin-left: 83.5px;
+    }
+    
+    .third_section_text_1 {
+        width: 70vw;
+        margin-left: 83.5px;
+        margin-bottom: 30px;
+    }
+    
+    .second_par {
+        text-indent: 15px;
+        margin-bottom: 120px;
+    }
+    
+    .green_header {
+        margin-left: 83.5px;
+        margin-bottom: 30px;
+    }
+    
+    .img_3 {
+        width: 75vw;
+        height: 45vw;
+    }
+    
+    .img_3_wrapper {
+        padding-bottom: 60px;
+    }
+    
+    .footer_text {
+        padding-top: 60px;
+        margin-left: 83.5px;
+        margin-bottom: 30px;
+    }
+    
+    .subscribe_field {
+        margin-left: 83.5px;
+        width: auto;
+    }
+    
+    .email_field {
+        margin-right: 42px;
+        width: 35vw;
+        height: 28px;
+        min-width: 350px;
+    }
+    
+    .subscribe {
+        margin-right: 42px;
+    }
+
+    .subscribe_icons {
+        margin-left: 83.5px;
+    }
+    
+    .icon {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-right: 42px;
+        height:50px;
+        width: 50px;
+    }
+}
